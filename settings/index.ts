@@ -8,11 +8,13 @@ import crypto from 'crypto';
 interface Settings {
   PORT: number;
   SECRET: string;
+  TOKEN: string;
 }
 
 let settings: Settings = {
   PORT: 3000,
   SECRET: crypto.randomBytes(32).toString('hex'),
+  TOKEN: crypto.randomBytes(32).toString('hex'),
 };
 
 // eslint-disable-next-line no-process-env
