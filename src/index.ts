@@ -1,11 +1,12 @@
 import 'source-map-support/register';
 
-import Settings from '../settings';
 import app from './app';
 
 
+const PORT = 3000;
+
 app.listen(
-  Settings.PORT,
+  PORT,
   // eslint-disable-next-line no-console
-  (): void => console.log(`Listening on port ${Settings.PORT}...`),
+  (): void => console.log(`Listening on port ${PORT}...`),
 );

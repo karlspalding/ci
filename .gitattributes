@@ -1,3 +1,0 @@
-settings/development.ts filter=git-crypt diff=git-crypt
-settings/production.ts filter=git-crypt diff=git-crypt
-settings/test.ts filter=git-crypt diff=git-crypt
